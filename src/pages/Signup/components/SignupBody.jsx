@@ -81,7 +81,7 @@ export default function SignupBody() {
                 <label>아이디</label>
                 <input
                     type="text"
-                    placeholder="아이디 입력"
+                    placeholder="아이디 입력 "
                     value={userId}
                     onChange={(e) => setUserId(e.target.value)}
                 />
