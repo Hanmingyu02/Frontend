@@ -85,7 +85,7 @@ export default function SignupBody() {
                     value={userId}
                     onChange={(e) => setUserId(e.target.value)}
                 />
-                <p className={idMessage.includes('사용 가능') ? 'success' : 'error'}>{idMessage}</p>
+                {idMessage && <p className={idMessage.includes('사용 가능') ? 'success' : 'error'}>{idMessage}</p>}{' '}
             </div>
 
             <div className="input-group">
